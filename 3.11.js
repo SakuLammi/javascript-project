@@ -1,8 +1,9 @@
-'use strict';
+"use strict";
+
 document.addEventListener("DOMContentLoaded", function() {
     // The picArray containing the image data
     const picArray = [
-        {
+{
             title: 'Title 1',
             caption: 'Caption 1',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sodales enim eget leo condimentum vulputate. Sed lacinia consectetur fermentum. Vestibulum lobortis purus id nisi mattis posuere. Praesent sagittis justo quis nibh ullamcorper, eget elementum lorem consectetur. Pellentesque eu consequat justo, eu sodales eros.',
@@ -60,6 +61,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Get the <section> element where the articles will be appended
     const sectionElement = document.getElementById('pictures');
+    const dialog = document.querySelector('dialog');
+    const dialogImg = dialog.querySelector('img');
+    const closeBtn = dialog.querySelector('span');
 
     // Loop through the picArray to create the articles
     picArray.forEach(function(pic) {
@@ -94,7 +98,20 @@ document.addEventListener("DOMContentLoaded", function() {
         p.textContent = pic.description;
         article.appendChild(p);
 
+        // Add a click event listener to open the modal
+        article.addEventListener('click', () => {
+            // Set the large image in the modal
+            dialogImg.src = pic.image.large;
+            dialogImg.alt = pic.title; // Set alt text
+            dialog.showModal(); // Open the modal
+        });
+
         // Append the <article> to the <section>
         sectionElement.appendChild(article);
+    });
+
+    // Add a click event to the close button in the modal to close it
+    closeBtn.addEventListener('click', () => {
+        dialog.close(); // Close the modal
     });
 });

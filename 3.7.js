@@ -6,12 +6,12 @@ document.addEventListener("DOMContentLoaded", function() {
     // Add a mouseover event listener to the <p> element
     trigger.addEventListener("mouseover", function() {
         // Change the image source to picB.jpg when mouse is over
-        targetImage.src = "img/picB.jpg";
+        targetImage.src = "module3-starters-main/t7/img/picB.jpg";
     });
 
     // Add a mouseout event listener to the <p> element
     trigger.addEventListener("mouseout", function() {
         // Change the image back to picA.jpg when mouse leaves
-        targetImage.src = "img/picA.jpg";
+        targetImage.src = "module3-starters-main/t7/img/picA.jpg";
     });
 });
