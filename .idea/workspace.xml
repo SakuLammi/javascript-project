@@ -4,34 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c7cf1a3-abeb-4379-b892-ce75b3475a0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/javascript project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.5.js" afterDir="false" />
+    <list default="true" id="7c7cf1a3-abeb-4379-b892-ce75b3475a0a" name="Changes" comment="väli commit">
+      <change afterPath="$PROJECT_DIR$/3.6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3-starters-main/t6/6.js" beforeDir="false" afterPath="$PROJECT_DIR$/module3-starters-main/t6/6.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -79,11 +69,24 @@
       <option name="presentableId" value="Default" />
       <updated>1731635128789</updated>
       <workItem from="1731635131019" duration="2831000" />
-      <workItem from="1731637998929" duration="2058000" />
+      <workItem from="1731637998929" duration="2805000" />
     </task>
+    <task id="LOCAL-00001" summary="väli commit">
+      <option name="closed" value="true" />
+      <created>1731640449099</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731640449099</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="väli commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="väli commit" />
   </component>
 </project>
