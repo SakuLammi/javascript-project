@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TV Series Search</title>
+</head>
+<body>
+  <h1>Search for a TV Series</h1>
+
+  <!-- Search Form -->
+  <form id="searchForm">
+    <input id="query" name="q" type="text" placeholder="Enter TV series name" required>
+    <button type="submit">Search</button>
+  </form>
+
+  <script>
+    // Handle the form submission
+    document.getElementById('searchForm').addEventListener('submit', function(event) {
+      event.preventDefault();  // Prevent the default form submission behavior
+
+      const query = document.getElementById('query').value;  // Get the search query
+
+      // Make a fetch request to the TVMaze API
+      fetch(`https://api.tvmaze.com/search/shows?q=${query}`)
+        .then(response => response.json())  // Parse the response as JSON
+        .then(data => {
+          // Log the JSON data to the console
+          console.log(data);
+        })
+        .catch(error => {
+          console.error('Error fetching data from TVMaze API:', error);
+        });
+    });
+  </script>
+</body>
+</html>
